@@ -1,0 +1,76 @@
+* {
+    margin: 5px 10px;
+}
+
+
+body {
+    color:blue;
+    background-color: rgb(200, 240, 243) }
+a {
+        color:blue;
+        background-color: rgb(200, 240, 243) }
+    
+        h1{
+            text-align:center;
+            color: rgb(12, 185, 238);
+            font-family: Libre Baskerville;
+            font-size: 45px;
+            border: 25px inset rgb(96, 173, 224);
+        }
+
+.mainmenu {
+    backround-color: rgb(25, 144, 199);
+    color: black;
+    border:none;
+    cursor:pointer;
+    padding: 20px;
+    margin-top: 20px;
+    }
+.dropdown {
+    position: relative;
+    display:inline-block;
+}
+.dropdown-1 {
+    display:none;
+    backround-color: black;
+    min-width:200px;
+}
+.dropdown-2 {
+    display:none;
+    backround-color: black;
+    min-width:200px;    
+}
+.dropdown-child a{
+    color: aliceblue;
+    padding: 20px;
+    text-decoration: blue;
+    display:block;
+    
+}
+.dropdown:hover .dropdown-1 {
+  
+    display:block;
+}
+.dropdown:hover .dropdown-2 {
+  
+    display:block;   
+}
+img{
+    text-align:center;    
+    height: 300x;
+    width: 470px;
+    border: 7px solid #0db1f1; 
+    }
+    
+
+       
+    .sign {
+        float: right; 
+        border: 1px solid #333; 
+        padding: 5px; 
+        margin: 10px 0 5px 5px; 
+        background: white; 
+       }
+       .sign figcaption {
+        margin: 0 auto 5px; 
+       }
