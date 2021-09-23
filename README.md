@@ -1,5 +1,5 @@
 # FINAL-PROJECT
-Anastassiya Savostina : github.com/anastassiyas
+Anastassiya Savostina : https://github.com/anastassiyas/FINAL-PROJECT
 
 **Overview:**
 
