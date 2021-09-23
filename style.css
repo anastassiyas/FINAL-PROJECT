@@ -1,23 +1,33 @@
-* {
-    margin: 5px 10px;
-}
 
 
 body {
     color:blue;
-    background-color: rgb(200, 240, 243) }
+    background-color: rgb(200, 240, 243)
+ }
+ 
 a {
-        color:blue;
-        background-color: rgb(200, 240, 243) }
-    
-        h1{
-            text-align:center;
-            color: rgb(12, 185, 238);
-            font-family: Libre Baskerville;
-            font-size: 45px;
-            border: 25px inset rgb(96, 173, 224);
+    color:blue;
+    background-color: rgb(200, 240, 243) }
+        
+h1{
+    text-align:center;
+    color: rgb(12, 185, 238);
+    font-family: Libre Baskerville;
+    font-size: 45px;
+    border: 25px inset rgb(96, 173, 224);
+p {
+    text-align: center;
+}
         }
-
+#column-content {
+    display:inline-block;
+    position: relative;
+    
+}        
+.text-left {
+    
+    text-align: left !important;
+   }
 .mainmenu {
     backround-color: rgb(25, 144, 199);
     color: black;
@@ -61,16 +71,26 @@ img{
     width: 470px;
     border: 7px solid #0db1f1; 
     }
-    
-
-       
-    .sign {
-        float: right; 
+.sign {
+        float: left; 
+        width: 70%;
         border: 1px solid #333; 
         padding: 5px; 
-        margin: 10px 0 5px 5px; 
-        background: white; 
+        margin: 20px; 
+        background: rgb(202, 228, 236); 
        }
+       
        .sign figcaption {
-        margin: 0 auto 5px; 
+        text-align:center;
        }
+      
+      
+      option {
+               -moz-white-space: pre-wrap;
+        -o-white-space: pre-wrap;
+        white-space: pre-wrap;
+               overflow: hidden;
+        text-overflow: ellipsis;
+       
+        border-bottom: 1px solid #DDD;
+      }
