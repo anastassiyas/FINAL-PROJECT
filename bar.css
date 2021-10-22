@@ -3,7 +3,16 @@ body {
     background-image: -webkit-linear-gradient(-225deg, #dfdacd #e0e0ba);
     background-image: linear-gradient(-80deg, #dfdacd 3%, #e0e0ba);
 }
-
+h1 {
+    color: chocolate;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
 
 #logo {
 float: left;
@@ -20,7 +29,7 @@ width: 250px;
 .menu ul,
 .menu li,
 .menu a {
-    width: 105px;
+    width: 127px;
     list-style: none;
   	margin: 0 auto;
     text-align: center;
@@ -30,16 +39,8 @@ width: 250px;
 /* Menu */
 .menu {	
 	height: 0px;
-	width: 900px;
-	background: #4c4e5a;
-	background: -webkit-linear-gradient(top, #4c4e5a 0%,#2c2d33 100%);
-	background: -moz-linear-gradient(top, #4c4e5a 0%,#2c2d33 100%);
-	background: -o-linear-gradient(top, #4c4e5a 0%,#2c2d33 100%);
-	background: -ms-linear-gradient(top, #4c4e5a 0%,#2c2d33 100%);
-	background: linear-gradient(top, #4c4e5a 0%,#2c2d33 100%);
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
+	width: 1200px;
+	
 }
 .menu li {
 	position: relative;
@@ -51,16 +52,13 @@ width: 250px;
 /* Links */
 .menu li a {
 	display: block;
-	
-	margin: 6px 0;
+	margin: 13px 0;
 	line-height: 28px;
 	text-decoration: none;
-	
-	
 	font-family: Helvetica, Arial, sans-serif;
 	font-weight: bold;
-	font-size: 13px;
-	color: #f3f3f3;
+	font-size: 20px;
+	color: #bd9616;
 	text-shadow: 1px 1px 1px rgba(0,0,0,.6);
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
@@ -70,15 +68,14 @@ width: 250px;
 }
 .menu li:first-child a { border-left: none; }
 .menu li:last-child a{ border-right: none; }
-.menu li:hover > a { color: #8fde62; }
+.menu li:hover > a { color: #0ee6ee; }
 /* Sub Menu */
 .menu ul {
 	position: absolute;
 	top: 40px;
-	left: 0;
-	opacity: 0;
+
 	
-	background: #1f2024;
+	background: beige;
 	-webkit-border-radius: 0 0 5px 5px;
 	-moz-border-radius: 0 0 5px 5px;
 	border-radius: 0 0 5px 5px;
@@ -105,14 +102,14 @@ width: 250px;
 	padding: 0;
 }
 .menu ul li a {
-	width: 100px;
-	padding: 4px 0 4px 40px;
+    position: relative;
+    text-align: left;
+	width: 126px;
+	padding: 0 15px 0 0;
 	margin: 0;
 	border: none;
-	border-bottom: 1px solid #353539;
 }
-.menu ul li:last-child a { border: none; }
-/* Icons */
-.menu a.documents { background: url(../img/docs.png) no-repeat 6px center; }
-.menu a.messages { background: url(../img/bubble.png) no-repeat 6px center; }
-.menu a.signout { background: url(../img/arrow.png) no-repeat 6px center; }
+	
+.menu ul li:last-child a
+ { border: none; 
+}
