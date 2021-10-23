@@ -161,7 +161,7 @@ img {vertical-align: middle;}
   color: white;
   font-weight: bold;
   font-size: 18px;
-  transition: 0.6s ease;
+  transition: 10.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
@@ -206,19 +206,19 @@ img {vertical-align: middle;}
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
-  transition: background-color 0.6s ease;
+  transition: background-color 10.6s ease;
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #6264eb;
 }
 
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 3.5s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 3.5s;
 }
 
 @-webkit-keyframes fade {
