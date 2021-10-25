@@ -23,7 +23,10 @@ body {
 h1 {
     color: rgb(30, 123, 210);
     display: inline-block;
-    text-align: end;
+    position: relative;
+    top: 2.2em;
+    left: 2em;
+    text-align: center;
     font-size: 2em;
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
@@ -34,11 +37,13 @@ h1 {
 
 #logo {
 display: inline-block;
+overflow: auto;
+float: left;
 position: fixed;
 width: 250px;
  }
  .search__text {
-    margin: 20 0 70 5;
+    
     line-height: 24px;
     border: 1px solid rgb(30, 123, 210);
     padding: 3px 40px 3px 6px;
