@@ -23,18 +23,29 @@ body {
 h1 {
     color: rgb(30, 123, 210);
     display: inline-block;
-    position: relative;
-    top: 2.2em;
-    left: 2em;
-    text-align: center;
+    
     font-size: 2em;
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-weight: bold;
+    
 }
-
+.gradient-all {
+    font-size: 3em;
+    font-weight: bold;
+    background: linear-gradient(135deg, #126fbc 20%, #FABE0E 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    position: relative;
+    top: 2.2em;
+    left: 1.5em;
+    text-align: center;
+    border: 5px solid transparent;
+    border-image: linear-gradient(135deg, #126fbc 20%, #FABE0E 70%);
+    border-image-slice: 1;
+  }
 #logo {
 display: inline-block;
 overflow: auto;
