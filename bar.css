@@ -6,20 +6,7 @@ body {
  html {
     height: 100%;
     margin: 0;
-  }
-  
-  .bg {
-    /* The image used */
-    background-image: url("images/CoronaRita1.jpg");
-  
-    /* Full height */
-    height: 30%; 
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  } 
 
 .gradient-all {
     display: inline-block;
@@ -169,7 +156,11 @@ img {vertical-align: middle;
   position: relative;
   margin: auto;
 }
-
+ /* Hide the images by default */
+ .mySlides {
+    display: none;}
+    img {vertical-align: middle;
+  }
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -181,7 +172,7 @@ img {vertical-align: middle;
   color: #ec9e0d;
   font-weight: bold;
   font-size: 18px;
- 
+  transition: 10.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
@@ -236,9 +227,9 @@ img {vertical-align: middle;
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 3.5s;
+  -webkit-animation-duration: 10.5s;
   animation-name: fade;
-  animation-duration: 3.5s;
+  animation-duration: 10.5s;
 }
 
 @-webkit-keyframes fade {
@@ -272,14 +263,12 @@ img {vertical-align: middle;
    .flipper {
     transition: 0.6s;
     transform-style: preserve-3d;
-    
     position: relative;
    }
     
    /* hide another side */
    .front, .back {
     backface-visibility: hidden;
-    
     position: absolute;
     top: 0;
     left: 0;
@@ -294,14 +283,15 @@ img {vertical-align: middle;
    .back {
     transform: rotateY(180deg);
    }
-   @media (max-width: 767px)
+    /* address */
+   @media (max-width: 767px){}
 .bottom_address {
     text-align: center;
     width: 100%;
     margin-bottom: 0px;
 }
 
-@media (max-width: 767px)
+@media (max-width: 767px) {}
 .bottom_address {
     margin-bottom: 20px;
 }
@@ -310,8 +300,7 @@ img {vertical-align: middle;
     margin: 0 auto;
     font-family: 'Roboto Condensed', Arial, sans-serif;
 }
-
-
+ /* social media */
   .wrapper {
     display: inline-flex;
     justify-content: center;
