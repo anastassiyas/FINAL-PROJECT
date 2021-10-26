@@ -37,3 +37,19 @@ html {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+@media (max-width: 767px)
+.bottom_address {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+@media (max-width: 767px)
+.bottom_address {
+    margin-bottom: 20px;
+}
+.bottom_address {
+    float: right;
+    margin: 0 auto;
+    font-family: 'Roboto Condensed', Arial, sans-serif;
+}
