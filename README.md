@@ -1,5 +1,5 @@
 # FINAL-PROJECT
-<<<<<<< HEAD
+
 Anastassiya Savostina : github.com/anastassiyas
 
 Overview:
@@ -25,7 +25,6 @@ Front End:
 HTML
 CSS
 Bootstrap
-=======
 
 **Technologies to be used:**
 
